@@ -38,6 +38,19 @@ migrate_working_dir/
 /coverage/
 .packages
 
+# Platform scaffolds are intentionally not committed for this source-only repo.
+# A cloner can regenerate them with Flutter when needed.
+/android/
+/ios/
+/linux/
+/macos/
+/windows/
+/web/
+
+# Planning/reference-only files, not required to run or build the app
+/docs/
+/assets/images/plan/
+
 # Symbolication related
 app.*.symbols
 
